@@ -12,3 +12,7 @@ David Rivadeneyra tiene 33 años, nació en Miraflores, y vive en Callao.
 * git init
 * git add . (o git add archivo.txt)
 * git commit m- 'Agregar un mensaje sobre el commit'
+* git config --list: muestra la configuración del repositorio.
+* git show archivo.txt: muestra los cambios de un archivo, y hace una comparación entre los cambios.
+* git diff 'codigo viejo 'codigo reciente': hace una camparativa entre esos 2 commits, los cambios entre cada uno.
+git diff: es para ver todos los cambios, trae los 'trae los codigo hexadecimales de los cambios'
