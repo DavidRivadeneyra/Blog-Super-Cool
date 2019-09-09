@@ -1,13 +1,10 @@
-# Esta es una práctica de Markdown
+# Pequeña lista de comandos Git (usando Markdown 🙃)
 
-En este documento Markdown voy a contar la historio de David Rivadeneyra.
-Es necesario aclarar que Pug no es la mejor herramienta para contenido.
+En este documento Markdown voy a contar voy a enumerar algunos comandos de Git.
 
-## Este es subtítulo
+## Pasos para crear un repositorio de Git
 
-David Rivadeneyra tiene 33 años, nació en Miraflores, y vive en Callao.
-
-### Pasos para crear un repositorio de Git
+![Imagen de git](https://i.blogs.es/672fa7/git-logo/450_1000.png)
 
 * git init
 * git add . (o git add archivo.txt)
