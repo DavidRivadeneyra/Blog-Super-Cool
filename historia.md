@@ -1,10 +1,10 @@
 # Pequeña lista de comandos Git (usando Markdown 🙃)
 
-En este documento Markdown voy a contar voy a enumerar algunos comandos de Git.
+En este documento Markdown voy a enumerar algunos comandos de Git.
 
-## Pasos para crear un repositorio de Git
+## Pasos para crear un repositorio de [Git]
 
-![Imagen de git](https://i.blogs.es/672fa7/git-logo/450_1000.png)
+![Imagen de git](https://git-scm.com/images/logo@2x.png)
 
 * **git init**
 * **git add .** (o git add archivo.txt)
@@ -16,3 +16,8 @@ En este documento Markdown voy a contar voy a enumerar algunos comandos de Git.
 * **git reset 'codigo hexadecimal' -hard/soft**: para volver a una versión anterior. Con -hard se pierden todos los commits hechos hasta ese punto. Con -soft se mantienen los cambios en el staging, se les pueden volver a hacer commit.
 * **git checkout 'codigo hexadecimal' 'archivo.txt'**: trae una version vieja a la versión actual.
 * **git checkout master 'archivo.txt'**: trae el master.
+
+*Esta lista la tomé de referencia de los apuntes del amigo Roberto Ocando Morales.*
+
+
+[Git]:https://git-scm.com/
