@@ -2,4 +2,20 @@
     --master-color: #1E1E1E;
     --text-color: #D4D4D4;
     --alt-color: #3589EB;
+    --font: 'Open Sans', sans-serif;
+}
+
+.body {
+    background-color: var(--master-color);
+    color: var(--text-color);
+    font-family: var(--font)
+}
+
+h1, h2, p {
+    font-weight: 400
+}
+
+a {
+    text-decoration: none;
+    color: var(--alt-color)
 }
