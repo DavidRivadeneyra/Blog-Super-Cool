@@ -6,11 +6,33 @@
 
 :root {
     --master-color: #1E1E1E;
+    --master-alt-color: #323232;
     --text-color: #D4D4D4;
     --alt-color: #3589EB;
     --alt-second-color: #F64D27;
     --font: 'Open Sans', sans-serif;
-    --top: 4rem;
+    --top: 5rem;
+    --m-left-banner: 2rem;
+    --m-left-body: 1rem;
+    --m-rigth-body: 1rem;
+    --z-index-normal: 1;
+    --z-index-back: -1;
+    --max-width: 1200px
+}
+
+h1, h2, p {
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--alt-color)
 }
 
 body {
@@ -22,40 +44,84 @@ body {
     background-color: var(--master-color);
     color: var(--text-color);
     font-family: var(--font);
-    margin-left: 1rem;
-    margin-right: 1rem;
     position: relative;
 }
 
 .l-container {
-    max-width: 1200px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: var(--max-width);
     margin-left: auto;
     margin-right: auto;
 }
 
-.cabecera {
+.banner {
+    position: relative;
+    margin-top: var(--top);
+    margin-bottom: var(--top);
+    background-color: var(--master-alt-color);
+    padding: 2rem 0 2rem;
+    z-index: var(--z-index-back);
+}
+
+.banner__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 15rem;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+    .banner__content {
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+.title__blog {
+    margin-left: 2rem;
+}
+
+.title__blog::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 5px;
+    background-color: #F64D27;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: 100%;
+    background: linear-gradient(150deg, rgba(53,137,235,1) 0%, rgba(246,77,39,1) 100%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.cabecera__content {
     color: var(--alt-color);
     width: 100%;
     height: var(--top);
     position: fixed;
     top: 0;
+    left: 0;
     background: #1E1E1E;
     display: flex;
     align-items: center;
-}   
+    border-bottom: 1px var(--alt-color) solid
+}
+
+.cabecera__title {
+    font-weight: 700;
+}
 
 .main {
     margin-top: 5rem;
 }
 
-h1, h2, p {
-    font-weight: 400;
-    margin: 0;
-}
 
-a {
-    text-decoration: none;
-    color: var(--alt-color)
-}
