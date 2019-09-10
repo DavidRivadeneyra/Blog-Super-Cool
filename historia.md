@@ -4,7 +4,7 @@ En este documento Markdown voy a enumerar algunos comandos de Git.
 
 ## Pasos para crear un repositorio de [Git]
 
-![Imagen de git](https://git-scm.com/images/logo@2x.png)
+![Imagen de git][ImgenGit]
 
 * **git init**
 * **git add .** (o git add archivo.txt)
@@ -17,7 +17,8 @@ En este documento Markdown voy a enumerar algunos comandos de Git.
 * **git checkout 'codigo hexadecimal' 'archivo.txt'**: trae una version vieja a la versión actual.
 * **git checkout master 'archivo.txt'**: trae el master.
 
-*Esta lista la tomé de referencia de los apuntes del amigo Roberto Ocando Morales.*
+>*Esta lista la tomé de referencia de los apuntes del amigo Roberto Ocando Morales.*
 
 
 [Git]:https://git-scm.com/
+[ImgenGit]:https://git-scm.com/images/logo@2x.png
