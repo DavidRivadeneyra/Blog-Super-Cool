@@ -109,7 +109,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: var(--alt-color);
+    background: var(--master-color);
     display: flex;
     align-items: center;
     border-bottom: 1px var(--alt-color) solid
