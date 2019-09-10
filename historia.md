@@ -17,7 +17,9 @@ En este documento Markdown voy a enumerar algunos comandos de Git.
 * **git checkout 'codigo hexadecimal' 'archivo.txt'**: trae una version vieja a la versión actual.
 * **git checkout master 'archivo.txt'**: trae el master.
 
->*Esta lista la tomé de referencia de los apuntes del amigo Roberto Ocando Morales.*
+## Comandos nuevos
+
+
 
 
 [Git]:https://git-scm.com/
