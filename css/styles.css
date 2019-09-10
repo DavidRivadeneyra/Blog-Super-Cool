@@ -116,12 +116,13 @@ body {
     border-bottom: 1px var(--alt-color) solid
 }
 
-.cabecera__title {
-    font-weight: 700;
-}
-
 .main {
     margin-top: 5rem;
 }
 
+.cabecera__title {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color)
+}
 
