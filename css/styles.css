@@ -104,13 +104,12 @@ body {
 }
 
 .cabecera__content {
-    color: var(--alt-color);
     width: 100%;
     height: var(--top);
     position: fixed;
     top: 0;
     left: 0;
-    background: #1E1E1E;
+    background: var(--alt-color);
     display: flex;
     align-items: center;
     border-bottom: 1px var(--alt-color) solid
