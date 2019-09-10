@@ -1,18 +1,50 @@
+*, 
+::before, 
+::after {
+    box-sizing: border-box;
+}
+
 :root {
     --master-color: #1E1E1E;
     --text-color: #D4D4D4;
     --alt-color: #3589EB;
+    --alt-second-color: #F64D27;
     --font: 'Open Sans', sans-serif;
+    --top: 4rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .body {
     background-color: var(--master-color);
     color: var(--text-color);
-    font-family: var(--font)
+    font-family: var(--font);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.cabecera {
+    color: var(--alt-color);
+    width: 100%;
+    height: var(--top);
+    position: fixed;
+    top: 0;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+}   
+
+.main {
+    margin-top: 5rem;
 }
 
 h1, h2, p {
-    font-weight: 400
+    font-weight: 400;
+    margin: 0;
 }
 
 a {
