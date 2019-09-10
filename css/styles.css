@@ -104,7 +104,6 @@ body {
 }
 
 .cabecera__content {
-    color: var(--alt-color);
     width: 100%;
     height: var(--top);
     position: fixed;
