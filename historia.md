@@ -19,7 +19,7 @@ En este documento Markdown voy a enumerar algunos comandos de Git.
 
 ## Comandos nuevos
 
-
+>*Esta lista la tomé de referencia de los apuntes del amigo Roberto Ocando Morales.*
 
 
 [Git]:https://git-scm.com/
