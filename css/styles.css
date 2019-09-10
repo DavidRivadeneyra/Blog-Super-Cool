@@ -110,7 +110,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #1E1E1E;
+    background: var(--alt-second-color);
     display: flex;
     align-items: center;
     border-bottom: 1px var(--alt-color) solid
