@@ -133,3 +133,13 @@ body {
     height: 50px;
     background-color: var(--master-alt-color)
 }
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture__item {
+    height: 3rem;
+}
