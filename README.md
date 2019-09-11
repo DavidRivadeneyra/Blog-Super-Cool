@@ -31,7 +31,7 @@ En este documento Markdown voy a enumerar algunos comandos de Git.
 10. **blame**: es para revisar quien hizo los cambios en github.
 11. Se puede editar desde Github.
 12. Luego en mi git local hago un **git pull origin master**, los cambios de Github se reflejan en mi git local.
-13. Cool!!!!!
+13. Cool!!!!!!
 
 
 [Git]:https://git-scm.com/
