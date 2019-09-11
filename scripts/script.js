@@ -1,0 +1,1 @@
+console.log('solo es un mensaje de consola')
