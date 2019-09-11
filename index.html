@@ -43,11 +43,21 @@
             <li>git checkout master 'archivo.txt': trae el master.</li>
         </ul>
         
-        <h2>Ramas - Branches</h2>
-        <ul>
-            <li>git branch nombreDeLaRama</li>
-            <li>git checkout nombreDeLaRama: para cambiar de rama</li>
-        </ul>
+        <h2>Cómo trabajar con ramas - Branches</h2>
+        <ol>
+            <li>git remote add origin https://github.com/DavidRivadeneyra/Blog-Super-Cool.git: Agregar origen remoto a mi repositorio.</li>
+            <li>git remote =>: devuelve origin.</li>
+            <li>git remote -v =>: devuelve que ya estoy habilitado en hacer origin  https://github.com/DavidRivadeneyra/Blog-Super-Cool.git (fetch) y origin  https://github.com/DavidRivadeneyra/Blog-Super-Cool.git (push).</li>
+            <li>git push origin master: enviar al origen (https://github.com/DavidRivadeneyra/Blog-Super-Cool.git) la rama master.</li>
+            <li>Si ocurre un error porque no se han conectado anteriormente el master del Github y Git de mi máquina local.</li>
+            <li>git pull orgin master: es la combinación de git fetch y git merge.</li>
+            <li>Devuelve una advertencia, porque no hay commits comunes, la historia entre Github es diferente de Git (local).</li>
+            <li>git pull origin master --allow-unrelated-histories: permite fusionar a rama de Github con mi local, así permite hacer el merge con la rama maste de guthub.</li>
+            <li>it push origin master: para enviar mi repositorio local a Github.</li>
+            <li>blame: es para revisar quien hizo los cambios en github.</li>
+            <li>Se puede editar desde Github. Y luego hacer un git pull origin [branch-en-github]</li>
+            <li>Luego en mi git local hago un git pull origin master, los cambios de Github se reflejan en mi git local.</li>
+        </ol>
     </main>
 </body>
 </html>
